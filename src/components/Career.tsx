@@ -15,43 +15,46 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Frontend Developer Intern</h4>
+                <h5>Netzary Infodynamics</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Contributed to the design and development of responsive web
+              applications for retail clients including Sangeetha Mobiles and
+              Pai Mobiles using Angular and React.js. Built reusable UI
+              components and integrated frontend with backend APIs.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>Olga Technologies Pvt Ltd</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Developed and maintained full-stack web applications for Hitachi
+              using React.js, Angular, Node.js, Express.js, MongoDB, and MySQL.
+              Built secure and scalable backend services with RESTful APIs for
+              data processing and third-party integrations.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full Stack Developer</h4>
+                <h5>Dalvkot Utility Enterprises Pvt Ltd</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Leading frontend architecture for Dcode e-commerce platform and
+              engineering backend services. Developed and deployed a Campus
+              Management System for Vydehi Medical College and MVJ Medical
+              College in production environments.
             </p>
           </div>
         </div>

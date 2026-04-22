@@ -18,7 +18,7 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  --accentColor: #c2a4ff;
+  --accentColor: #4dc9f6;
   --backgroundColor: #0b080c;
   --vh: 100vh;
   --vh: 100svh;
@@ -94,6 +94,7 @@ body {
 .techstack {
   width: 100%;
   position: relative;
+  z-index: 1;
   height: var(--vh);
   margin: auto;
   margin-top: 50px;

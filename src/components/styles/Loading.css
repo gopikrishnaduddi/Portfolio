@@ -70,7 +70,7 @@
   overflow: visible;
 }
 .loading-hover {
-  background-color: #a87cff;
+  background-color: #4dc9f6;
   width: 250px;
   height: 120px;
   position: absolute;
@@ -197,6 +197,18 @@
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+}
+.loader-logo-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0.1);
+  transition: filter 0.3s ease;
+}
+.loader-logo-img:hover {
+  filter: brightness(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
 }
 @keyframes blink {
   0% {
@@ -272,7 +284,7 @@
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #a87cff;
+  background-color: #37d67a;
   animation: ball25 7s infinite;
   transform: translateY(10px);
   animation-timing-function: cubic-bezier(0.3, 1.18, 0.63, 1.28);

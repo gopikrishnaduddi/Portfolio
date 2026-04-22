@@ -6,7 +6,7 @@ interface ParaElement extends HTMLElement {
   split?: SplitText;
 }
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
+gsap.registerPlugin(ScrollTrigger);
 
 export default function setSplitText() {
   ScrollTrigger.config({ ignoreMobileResize: true });
@@ -21,18 +21,10 @@ export default function setSplitText() {
     para.classList.add("visible");
     if (para.anim) {
       para.anim.progress(1).kill();
-      para.split?.revert();
     }
 
-    para.split = new SplitText(para, {
-      type: "lines,words",
-      linesClass: "split-line",
-    });
-
-    const words = para.split?.words || [];
-
     para.anim = gsap.fromTo(
-      words,
+      para,
       { autoAlpha: 0, y: 80 },
       {
         autoAlpha: 1,
@@ -51,16 +43,11 @@ export default function setSplitText() {
   titles.forEach((title: ParaElement) => {
     if (title.anim) {
       title.anim.progress(1).kill();
-      title.split?.revert();
     }
-    title.split = new SplitText(title, {
-      type: "chars,lines",
-      linesClass: "split-line",
-    });
     const chars = title.split?.chars || [];
 
     title.anim = gsap.fromTo(
-      chars,
+      title,
       { autoAlpha: 0, y: 80, rotate: 10 },
       {
         autoAlpha: 1,
